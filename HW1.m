@@ -1,3 +1,20 @@
+GB comments:
+Prob1: 100%
+Prob2:
+P1:100
+P2: 50 Close, but your code only pulls from the shortest sequence, not the shortest ORF. The reading frame is defined from the start codon. So the only problem here is the order of operation. Should have first assessed whether lengths has sequences that are within its reading frame using your mod function. From there you can pull the shortest sequence for each start/stop codon combination and then pull the max. 
+P3:100
+P4:100
+P5:100 
+Prob3
+P1: 100
+P2:100
+P3:100 
+Bonus: 50
+Overall: 100
+
+
+
 % Homework 1. Due before class on 9/5/17
 
 %% Problem 1 - addition with strings
